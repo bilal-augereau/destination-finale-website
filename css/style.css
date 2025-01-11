@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Life+Savers:wght@400;700;800&display=swap");
-
 @media (max-width: 720px) {
 	body {
 		--screen: "mobile";
-	} *
-} 
-
+	}
+}
 :root {
 	--main-color: #219ebc;
 	--secondary-color: #d2eaf5;
@@ -16,20 +14,16 @@
 	--text-font: "Kanit", sans-serif;
 	--white-color: white;
 }
-
 * {
 	box-sizing: border-box;
 }
-
 body {
 	margin: 0;
 	line-height: 1.5;
 	background-color: var(--white-color);
 	font-family: var(--text-font);
 }
-
 /* Style de la nav */
-
 nav,
 footer {
 	background-color: var(--main-color);
@@ -38,7 +32,6 @@ footer {
 	font-weight: 300;
 	font-size: .7em;
 }
-
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -46,27 +39,21 @@ nav {
 	width: 100%;
 	padding: .5em;
 }
-
 nav img#logo {
 	width: 45%;
 	height: auto;
 }
-
 nav ul#menu {
 	display: none;
 }
-
 nav img.btn-nav {
 	width: 10%;
 	height: auto;
 }
-
 nav img#cross {
 	display: none;
 }
-
 /* Style du header */
-
 header#main-header {
 	background-color: var(--main-color);
 	font-family: var(--title-font);
@@ -76,20 +63,16 @@ header#main-header {
 	text-align: center;
 	padding: 1rem;
 }
-
 /* Style de la map */
-
 main section#map {
 	display: grid;
 	grid-template: repeat(17, 1fr) / repeat(25, 16px);
 	justify-content: center;
 }
-
 main section#map #map-img {
 	width: 400px;
 	grid-area: 1 / 1 / 26 / 26;
 }
-
 main section#map button {
 	border-radius: 50%;
 	height: 1.5rem;
@@ -98,31 +81,24 @@ main section#map button {
 	background-color: transparent;
 	cursor: pointer;
 }
-
 main section#map #button-edimbourg {
 	grid-area: 9 / 8;
 }
-
 main section#map #button-bruxelles {
 	grid-area: 11 / 11;
 }
-
 main section#map #button-budapest {
 	grid-area: 13 / 18;
 }
-
 main section#map #button-valence {
 	grid-area: 15 / 9;
 }
-
 /* Style fiche Welcome */
-
 main section#welcome h1 {
 	font-weight: 800;
 	font-size: 1.5em;
 	font-family: var(--title-font);
 }
-
 main section#welcome {
 	display: flex;
 	background-color: var(--secondary-color);
@@ -133,13 +109,10 @@ main section#welcome {
 	flex-direction: column;
 	padding-top: 1rem;
 }
-
 main section#welcome p {
 	font-size: 1em;
 }
-
 /* Style carte ville */
-
 main section.city {
 	display: none;
 	background-color: var(--secondary-color);
@@ -147,21 +120,17 @@ main section.city {
 	gap: 3rem;
 	padding: 3rem;
 }
-
 main section.city div.fichecity h1 {
 	padding-bottom: 1rem;
 }
-
 main section.city div.fichecity p {
 	font-size: .8em;
 	font-weight: 300;
 	padding-bottom: 1rem;
 }
-
 main section.city img.logocity {
 	height: 8rem;
 }
-
 main section.city div.fichecity button {
 	background-image: linear-gradient(
 		to right,
@@ -186,18 +155,14 @@ main section.city div.fichecity button {
 	border-radius: 50px;
 	transition: all .4s ease-in-out;
 }
-
 main section.city div.fichecity button:hover {
 	background-position: 100% 0;
 	transition: all .4s ease-in-out;
 }
-
 /* Page Fiche destination - Dimensionnement photo ville*/
-
 main .photodestination {
 	width: 100%;
 }
-
 main section.intro-city {
 	display: flex;
 	background-color: var(--secondary-color);
@@ -205,19 +170,15 @@ main section.intro-city {
 	gap: 3rem;
 	padding: 2rem;
 }
-
 main section.intro-city div.fichecity p {
 	font-size: .8em;
 	font-weight: 300;
 	padding-bottom: 1rem;
 }
-
 main section.intro-city img.logocity {
 	height: 8rem;
 }
-
 /* Page Fiche destination - Style des boutons d'ancrage */
-
 main section#buttons-category {
 	display: flex;
 	flex-wrap: nowrap;
@@ -225,41 +186,32 @@ main section#buttons-category {
 	padding: 1rem 2rem;
 	width: 100%;
 }
-
 main section#buttons-category a img {
 	width: 15vw;
 }
-
 /* Page Fiche destination - Style categories de la fiche */
-
 main section.category {
 	padding: 1rem 2rem;
 }
-
 main section#top-3,
 body section#manger {
 	background-color: var(--secondary-color);
 }
-
 main section.category header {
 	display: flex;
 	align-items: center;
 	gap: 1rem;
 }
-
 main section.category img {
 	width: 10%;
 }
-
 main section.category #arrow {
 	display: none;
 }
-
 main section.category h2 {
 	font-size: 1.5rem;
 	color: var(--main-color);
 }
-
 main section.category ul {
 	display: flex;
 	flex-wrap: nowrap;
@@ -267,7 +219,6 @@ main section.category ul {
 	padding-top: 1rem;
 	gap: 1rem;
 }
-
 main section.category ul .slider {
 	position: relative;
 	width: 300px;
@@ -276,8 +227,6 @@ main section.category ul .slider {
 	align-items: center;
 	justify-content: center;
 }
-
-
 @keyframes fade-in {
 	0% {
 		opacity: 0;
@@ -286,18 +235,15 @@ main section.category ul .slider {
 		opacity: 1;
 	}
 }
-
 main section.category ul img {
 	opacity: 0;
 	animation: fade-in 0.6s ease-in forwards;
 	height: 20em;
 	width: 50em;
 }
-
 main section.category ul .hidden-image {
 	display: none;
 }
-
 main section.category ul .previous,
 main section.category ul .next {
 	cursor: pointer;
@@ -306,7 +252,6 @@ main section.category ul .next {
 	font-size: 80px;
 	color: var(--third-color);
 }
-
 main section.category ul .previous {
 	left: 0;
 	margin-top: 20%;
@@ -317,7 +262,6 @@ main section.category ul .next {
 	margin-top: 20%;
 	margin-right: 3%;
 }
-
 main
 	section.category
 	ul
@@ -331,31 +275,25 @@ main
 .slider:hover .next {
 	opacity: 1;
 }
-
 main section.category li img {
 	width: 80vw;
 }
-
 main section.category li a {
 	text-decoration: none;
 }
 main section.category li p {
 	text-align: center;
 }
-
 main section#venir ul {
 	display: inline-block;
 	padding-left: 2.5rem;
 }
-
 /* Style bouton remonter en haut */
-
 main section#up {
 	display: flex;
 	justify-content: center;
 	padding: 0 0 2em 0;
 }
-
 main section button#btn-up {
 	background-color: transparent;
 	box-shadow: 8px 8px 5px 0px rgba(2, 48, 71, 0.75);
@@ -365,32 +303,26 @@ main section button#btn-up {
 	border-radius: 50px;
 	height: 55px;
 }
-
 main section.category li img {
 	width: 80vw;
 }
-
 main section.category li a {
 	text-decoration: none;
 }
 main section.category li p {
 	text-align: center;
 }
-
 main section#venir ul {
 	display: inline-block;
 	padding-left: 2.5rem;
 }
-
 /* Style footer */
-
 footer {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	width: 100%;
 }
-
 footer ul {
 	display: flex;
 	align-items: center;
@@ -398,12 +330,10 @@ footer ul {
 	width: 100%;
 	padding: 1em;
 }
-
 footer ul li a {
 	text-decoration: none;
 	color: var(--white-color);
 }
-
 footer span {
 	display: flex;
 	align-items: center;
@@ -411,33 +341,25 @@ footer span {
 	width: 100%;
 	padding: .5em 0 .5em 1em;
 }
-
 /* Style menu de navigation mobile */
-
 main ul.list-nav li.cat-nav {
 	padding: 2em 1em;
 }
-
 main ul.list-nav li.cat-nav a {
 	text-decoration: none;
 	color: var();
 }
-
 main ul.list-nav li.cat-nav:nth-child(odd) {
 	background-color: var(--secondary-color);
 }
-
 main ul.list-nav li.cat-nav:nth-child(2) {
 	display: flex;
 	justify-content: space-between;
 }
-
 main ul.list-nav li.cat-nav img#arrow {
 	width: 25px;
 }
-
 /* Page no flight */
-
 main#main-noflight {
 	display: flex;
 	flex-direction: column;
@@ -445,11 +367,31 @@ main#main-noflight {
 	align-items: center;
 	height: 70vh;
 }
-
 main#main-noflight a {
 	font-size: 2em;
 	text-decoration: none;
 }
 main#main-noflight article {
 	padding: 1em 0;
+}
+/* Page a propos */
+main#main-a-propos {
+	padding: 1em;
+	min-width: 700px;
+}
+main#main-a-propos h2 {
+	font-size: 2em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+main#main-a-propos p {
+	font-weight: 200;
+	padding-bottom: 1em;
+}
+main#main-a-propos strong {
+	font-weight: 500;
+}
+#footer-a-propos {
+	position: absolute;
+	bottom: 0;
 }
