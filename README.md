@@ -1,4 +1,4 @@
-URL: https://bilal-augereau.github.io/destination-finale-website/accueil.html
+*** HTML/CSS/Javascript *** URL: https://bilal-augereau.github.io/destination-finale-website/accueil.html
 
 Destination Finale is a web application designed to simplify decision-making for travelers. It allows users to explore clickable cities and discover the best places to eat or hang out.
 
