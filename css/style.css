@@ -70,7 +70,7 @@ main section#map {
 	justify-content: center;
 }
 main section#map #map-img {
-	width: 400px;
+	width: 390px;
 	grid-area: 1 / 1 / 26 / 26;
 }
 main section#map button {
@@ -107,7 +107,7 @@ main section#welcome {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding-top: 1rem;
+	padding-top: 2rem;
 }
 main section#welcome p {
 	font-size: 1em;
@@ -377,7 +377,6 @@ main#main-noflight article {
 /* Page a propos */
 main#main-a-propos {
 	padding: 1em;
-	min-width: 700px;
 }
 main#main-a-propos h2 {
 	font-size: 2em;
@@ -391,7 +390,8 @@ main#main-a-propos p {
 main#main-a-propos strong {
 	font-weight: 500;
 }
-#footer-a-propos {
-	position: absolute;
-	bottom: 0;
+
+main section.city {
+	gap: 1rem;
+	padding: 1rem;
 }
